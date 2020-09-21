@@ -1,0 +1,197 @@
+* {line-height:1.5em; font-family:Montserrat, sans-serif; text-decoration:none; padding:0; margin:o;}
+*,*::before, *::after {box-sizing: inherit;}
+
+body{margin:0; overflow-x:hidden; background-color:#E9E9E9;}
+ul {list-style: none;}
+hr{height: 0.5rem;border:none;border-top: 1px dashed #5f5d5d;}
+input, .btn1{width:100%; }
+/*Menu bar*/
+#main-topbar{position:fixed; width:100%; top:0;overflow:hidden; background-color:white; z-index:2;}
+#nav-bar{display:grid;grid-template-columns:1fr 1fr 1fr; max-width:1030px;margin:auto;padding:15px;}
+.logo-company >img{width:200px; }
+
+.soc-media{display:flex;justify-content: flex-end;padding-right: 3.5rem;}
+.media-handle{color:#616161; padding:8px; font-size:30px;}
+
+.Menu-main{display:flex; justify-content: center;font-size: 1rem;}
+.Menu-main>section{padding:15px 8px; font-weight:bold; margin-right:8px;text-decoration:none;}
+.Home-link, .About-link2{color:#FFFFFF;width:100%; padding:20px; background-color:#0080C0;}
+.Home-link:hover, .About-link2:hover{ background-color:#DA0000;}
+.About-link, .Home-link1{width:100%; padding:20px;color:#000000; }
+.About-link:hover, .Home-link1:hover{background-color:#DA0000;color:#FFFFFF; }
+/*Sports time*/
+#sports-time{background-image:url('./Images/sports.jpg');background-position: 100%;color: #FFFFFF;background-size:100%;z-index: -1;}
+.sports-time-content{background: rgba(0, 0, 0, 0.75);z-index: 1; padding-bottom:100px;}
+.sports-time-article{margin-top:75px;display:grid;grid-template-columns:auto; padding-top:50px; padding-left:150px;}
+
+.sports-time-article-head h3{padding: 8px 0 12px 0;font-size: 1.5em;}
+
+p.sports-time-article-content{font-size: 14px; margin-top:0;}
+
+.readmore-btn button{font-size: 14px; background-color:#b60606;border: none;padding: 8px 16px; }
+.readmore-btn button a{color:#FFFFFF;}
+.readmore-btn button:hover{background-color:red;}
+
+.s-tag{ background-color:orange;color:#ffff;display:inline-block;padding-left:10px;padding-right:10px;width:40px; height:25px; border-radius:30%; font-size:10px;}
+.ent-tag{ background-color:#551d6e;color:#ffff;display:inline-block;padding-left:8px;padding-right:10px;width:80px; height:25px; border-radius:30%; font-size:10px; margin-left:5px; margin-top:10px;}
+.tech-tag{background-color:#2e4175;color:#ffff;display:inline-block;padding-left:10px;padding-right:10px;width:70px; height:25px; border-radius:30%; font-size:10px; margin-left:5px; margin-top:10px; }
+/*Editors picks*/
+.e-head h3{ margin-left:190px;}
+.editor-div{background-color:#E9E9E9;margin-bottom:50px; }
+.editor-div-grid a{ color:#000000; }
+.editor-div h3{font-size:14px;text-shadow:0 4px 10px 0 rgba(0,0,0,0.2); }
+.editor-div-grid{display:grid; grid-template-columns:auto auto auto; grid-gap:8px; margin-left:50px; margin-right:50px;}
+.editor-div-grid>div{padding:12px; font-size:15px;}
+.epr{background-color:#FFFFFF; }
+.sports-div{background-color:#000000; color:#FFFFFF; }
+.sports-div h3 a, .sports-div1 h3 a{color:#FFFFFF; }
+.epr-first img{height:100%;}
+.epr-last{background-color:inherit; }
+.epr-last img{height:100%;}
+.sports-div1{background-color:#B60606; color:#FFFFFF;}
+
+/*Footer*/
+#footer{background-color:#1e1e1f; padding-bottom:5px; color:#FFFFFF;}
+#footer h3{padding-bottom: 0.7em; }
+
+.info{display: grid;grid-template-columns: auto auto auto auto;padding: 10px 100px;justify-content:center;}
+.info>.sub-info{color:#FFFFFF; font-size:12px; padding:0 30px 30px;}
+.info-btn{border: none;margin-top: 8px;padding: 0px 3px;color:#FFFFFF;}
+.btn1{background-color:#b60606 ;outline-color:red;}
+.btn1:hover{background-color:red;}
+.btn2{background-color:orange;padding:8px 10px; }
+.btn2:hover{background-color:#FF8040; }
+
+.last-footer{
+  color:#FFFFFF;
+  text-align: center;
+  margin: auto;
+  padding: 6px 0;
+  max-width: 996px;
+  background-color:rgb(59, 57, 57);
+  margin-bottom:30px;
+}
+
+/*Read more page*/
+#Read-section{padding: 2em 8em 2em;background-color:#E9E9E9; }
+.Read-div{display: grid;grid-template-columns: auto auto;}
+.Read-subdiv{padding: 1em; background-color:#FFFFFF; margin-top:75px;}
+.Read-subdiv-head{ margin:1em 0; font-family: Georgia, 'Times New Roman', Times, serif;}
+.author-info{background-color:#E9E9E9;display: flex;justify-content: space-between;padding: 8px 6px; margin:1em 0;}
+.Read-article{ text-align: justify;font-size: 14px; }
+
+.Right-Sidebar{margin-left: 8px; margin-top:75px;}
+.Cat{background-color:#FFFFFF; padding: 8px 16px 8px 8px; margin-left:8px;}
+.Cat-head h3{padding-bottom: 8px;}
+.Cat div ul a li{color:#000000; }
+.Cat div ul a li:hover{color:#B60606;}
+/*About-page*/
+.club-invite{width:100%;}
+.club-invite-sub{margin:20px 8px; background-color:orange; color:#FFFFFF;padding: 15px 10px 1em;}
+.club-invite-head h3{font-size: 1.5em;}
+.club-invite-btn button{color:#FFFFFF; background-color:#000000; padding:8px 0 ; width: 100%; font-size:15px;border:none;}
+.club-invite-content p{font-size: 0.9rem; padding-bottom: 0.5rem;}
+
+#About-section{background-color:#E9E9E9; margin-top:75px;}
+.About-div{display: grid;grid-template-columns: auto auto;padding: 2.5em 10em; grid-gap:20px;}
+.About-subdiv{ padding: 1em;background-color:#FFFFFF;text-align: justify;font-size: 0.9em;}
+.About-head h1{padding: 1em 0;font-size: 2em;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.club-invite-div{background-color:#b60606;color:#FFFFFF;padding: 8px;}
+
+
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+#nav-bar {grid-template-columns:auto; }
+.logo-company {text-align:center; padding:15px 0;}
+
+.soc-media {display: none;}
+
+.sports-time-article-head h3{font-size: 1.5em;}
+
+.e-head h3{padding-right: 2em;font-size: 1em;}
+
+span.continue-reading{display: none;}
+
+#Read-section{ padding: 1em; margin-top:100px;}
+.Read-div{grid-template-columns: auto;}
+.Right-Sidebar{margin-top:25px; margin-left:0;}
+.Cat{width:80%; margin-left:35px;}
+.club-invite{width:90%; margin-left:25px;}
+}
+
+@media(max-width:700px)  {
+.About-div{grid-template-columns: auto; padding: 1em;grid-gap:30px; }
+.club-invite-div{padding: 10px;}
+.About-head h1{font-size: 1.5em;}
+#About-section{margin-top:170px; }
+
+}
+
+@media (max-width: 500px) {
+.sports-time-article{padding: 30px 50px; margin-top:150px;}
+span.continue-reading{display: none;}
+.e-head h3{ margin-left:20px;}
+.editor-div-grid {grid-template-columns:auto;padding:0 15px;margin:0 5px;}
+
+.About-head{font-size: 10px;}
+.club-invite-content p{padding-bottom: 0;}
+.info{grid-template-columns:auto ;padding: 8px 8px;}
+.sub-info{margin: 5px 0; border-bottom:1px dashed whitesmoke;}
+.sub-info img{width:40%;}
+
+.last-footer{max-width: 450px;}
+}
+@media (max-width: 350px){
+.sports-time-content{padding-bottom:0;}
+.sports-time-article-head h3{font-size:12px; }
+.sports-time-article{margin:150px 0 0 0;} 
+.sports-time-article-content{display:none; }
+}
+
+@media (min-width:351px) and (max-width:768px){
+.sports-time-content{padding-bottom:0;}
+ }
+
+@media (min-width: 501px) and (max-width: 768px) {
+span.continue-reading{display: none;}
+.sports-time-article {padding: 15px 50px; margin-top:168px;}
+.editor-div-grid {grid-template-columns:auto auto;padding: 0 15px; margin:0 5px; grid-gap:15px;}
+.sports-div{grid-column:span 2;}
+
+.tech-div2{ grid-column: span 2;}
+.epr-last{ grid-column:span 2;}
+
+.info{grid-template-columns: auto auto;padding: 5px 5px;}
+.sub-info{margin: 0.5em 0;}
+.last-footer{max-width: 700px;}
+} 
+
+@media (min-width: 767px) and (max-width: 850px) {
+  .sports-time-article {padding: 8em 0 0 4em;}
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+.editor-div-grid {grid-template-columns:auto auto auto;padding: 0 15px; margin:0 5px; grid-gap:15px;}
+span.continue-reading{display: none;}
+.info{grid-template-columns: auto auto;padding: 8px 8px;}
+
+.sub-info img{width:45%;}
+.sub-info>.first, .sub-info>.second{border-bottom: 0.1px dashed rgb(37, 37, 37);margin:8px 0 16px 0;}
+
+#Read-section{ padding: 8px;margin-top:30px; margin-bottom:20px;}
+.Read-div{grid-template-columns: auto auto;}
+.author-info small{font-size: 12px;}
+}
+
+@media (max-width:1024px) and (min-width:701px){
+.About-div{grid-template-columns: auto auto;padding: 1.5em;}
+.About-head h1{font-size: 1.5em;}
+#About-section{margin-top:170px; }
+}
+
+
+
+
